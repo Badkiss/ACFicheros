@@ -14,7 +14,6 @@ public class Ejercicio8 {
         try{
             DocumentBuilderFactory factory= DocumentBuilderFactory.newInstance();
             Document document=null;
-
             DocumentBuilder builder= factory.newDocumentBuilder();
             document= builder.parse(new File("GOTini.xml"));
             document.getDocumentElement().normalize();
