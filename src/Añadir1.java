@@ -104,7 +104,6 @@ public class Añadir1 {
                     element.appendChild(lista.get(j));
                     j++;
                     nodoR.appendChild(element);
-
                 }
             }
             TransformerFactory fT= TransformerFactory.newInstance();
